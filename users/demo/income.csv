@@ -1,0 +1,3 @@
+id,source,amount,frequency,date,is_active,monthly_amount,due_date
+1,Salary,8000.0,Monthly,,True,8000.0,2026-02-01
+2,Freelance Work,2000.0,Monthly,,True,2000.0,2026-02-15

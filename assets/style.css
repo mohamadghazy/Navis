@@ -1,0 +1,107 @@
+/* Custom CSS for Navis */
+
+/* Main container */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Metrics */
+[data-testid="stMetricValue"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Progress bar */
+.stProgress > div > div > div {
+    background-color: #1f77b4;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #f8f9fa;
+}
+
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {
+    font-size: 1rem;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 4px 4px 0 0;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1f77b4;
+    color: white;
+}
+
+/* Dataframes */
+[data-testid="stDataFrame"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Buttons */
+.stButton button {
+    width: 100%;
+}
+
+/* Cards */
+div[data-testid="stVerticalBlock"] > div:has(> h3) {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Alerts */
+.element-container:has(.stAlert) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Download buttons */
+.stDownloadButton button {
+    background-color: #28a745;
+    color: white;
+}
+
+.stDownloadButton button:hover {
+    background-color: #218838;
+}
+
+/* Charts */
+.js-plotly-plot {
+    border-radius: 8px;
+}
+
+/* Empty state */
+div[data-testid="stVerticalBlock"] > div:has(> div[style*="text-align: center"]) {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    [data-testid="stMetricValue"] {
+        font-size: 1.2rem;
+    }
+    
+    .stTabs [data-baseweb="tab"] {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
