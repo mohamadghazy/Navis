@@ -159,11 +159,3 @@ Pillow==10.2.0
 ## License
 
 This project is for personal use. Feel free to modify and extend it for your needs.
-
-## Support
-
-For issues or questions, check the Settings page for data location and troubleshooting information.
-
----
-
-**Built with ❤️ for personal financial planning**
